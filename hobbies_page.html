@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Hobbies</h1>
+        <nav>
+            <a href="personal_webpage.html">About Me</a> |
+            <a href="education.html">Education</a> |
+            <a href="hobbies_page.html"><mark>Hobbies</mark></a> |
+            <a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a> |
+            <a href="https://discord.gg/cse391" target="_blank">CSE 391 Discord</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="indoor">
+            <h2>Indoor Hobbies</h2>
+            <ul>
+                <li>Playing League of Legends</li>
+                <li>Playing Ark : Survival Evolved</li>
+                <li>Watching Movies</li>
+                <li>Watching Series</li>
+            </ul>
+        </section>
+
+        <section id="outdoor">
+            <h2>Outdoor Hobbies</h2>
+            <ul>
+                <li>Football</li>
+                <li>Cricket</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ayaz Elahi Mullick</p>
+        <p id="pageInfo"></p>
+    </footer>
+
+    <script>
+        document.getElementById("pageInfo").innerHTML = "Page URL: " + window.location.href + "<br>Last updated: " + document.lastModified;
+    </script>
+</body>
+</html>

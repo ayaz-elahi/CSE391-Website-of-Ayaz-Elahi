@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Education</h1>
+        <nav>
+            <a href="personal_webpage.html">About Me</a> |
+            <a href="education.html"><mark>Education</mark></a> |
+            <a href="hobbies_page.html">Hobbies</a> |
+            <a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a> |
+            <a href="https://discord.gg/cse391" target="_blank">CSE 391 Discord</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="Education">
+            <h2>My Education</h2>
+            <p>I am currently a student of BRAC Universit. I am studying Computer Science of Engineering.</p>
+            <p>I am studying Computer Science of Engineering.</p>
+        </section>
+
+        <section id="table">
+
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">BSc in CSE</td>
+                    <td>BRAC University</td>
+                    <td>
+                        <p>Major in Software Engineering</p>
+                        <p>Current CGPA: 3.42</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">I started in Spring 2022, and expect to be done with graduation by Fall 2026</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Ayaz Elahi Mullick</p>
+        <p id="pageInfo"></p>
+    </footer>
+
+    <script>
+
+        const pageInfo = document.getElementById("pageInfo");
+        pageInfo.innerHTML = "Page URL: " + window.location.href + "<br>Last updated: " + document.lastModified;
+    </script>
+</body>
+</html>

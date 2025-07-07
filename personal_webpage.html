@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .highlight { color: darkred; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AYAZ ELAHI MULLICK</h1>
+        <img src="Ayaz.jpg" alt="My Photo" width="150" height="150">
+        <nav>
+            <a href="personal_webpage.html"><mark>About Me</mark></a> |
+            <a href="education.html">Education</a> |
+            <a href="hobbies_page.html">Hobbies</a> |
+            <a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a> |
+            <a href="https://discord.gg/cse391" target="_blank">CSE 391 Discord</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm <span class="highlight">Ayaz Elahi Mullick</span>, a person who whishes to accomplish everything in the world by doing absolytely nothing.</p>
+            <p>I enjoy re-watching series.</p>
+            <p><strong>Favorite Quote:</strong> <em>"I have always believed that if you want to make something happen, you should do it yourself."</em></p>
+        </section>
+
+        <section id="favorites">
+            <h2>A Few of my Favorite Movies</h2>
+            <ul>
+                <li>The Fast and the Furiious</li>
+                <li>2 Fast 2 Furious</li>
+                <li>The Fast and the Furious: Tokyo Drift</li>
+                <li>Fast & Furious</li>
+                <li>Fast Five</li>
+                <li>Fast & Furious 6</li>
+                <li>Furious 7</li>
+            </ul>
+        </section>
+
+        <section id="favorites">
+            <h2>A Few of my Favorite Series</h2>
+            <ul>
+                <li>Friends</li>
+                <li>Modern Family</li>
+                <li>The Big Bang Theory</li>
+                <li>One Day at a Time</li>
+                <li>How I met your Mother</li>
+                <li>Young Sheldon</li>
+                <li>Chernobyl</li>
+            </ul>
+            <p>Want to know more about my education? Visit my <a href="education.html">education page</a>.</p>
+            <p>Want to know more about my hobbies? Visit my <a href="hobbies_page.html">hobbies page</a>.</p>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Ayaz Elahi Mullick</p>
+        <p id="pageInfo"></p>
+    </footer>
+
+    <script>
+        const pageInfo = document.getElementById("pageInfo");
+        pageInfo.innerHTML = "Page URL: " + window.location.href + "<br>Last updated: " + document.lastModified;
+    </script>
+</body>
+</html>
